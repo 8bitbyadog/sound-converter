@@ -1,25 +1,30 @@
-# OGG to MP3 Converter
+# Sound Converter
 
-A simple desktop application for converting OGG audio files to MP3 format.
+A simple desktop application for converting OGG audio files to MP3 format, built with Electron.js.
 
 ## Features
 
-- Drag and drop interface for file selection
-- Multiple file selection support
-- Progress tracking for each file
-- Clean and intuitive user interface
-- Cross-platform support (Windows, macOS, Linux)
+- 🎵 Drag and drop interface for file selection
+- 📁 Multiple file selection support
+- 📊 Progress tracking for each file
+- 🎨 Clean and intuitive user interface
+- 💻 Cross-platform support (Windows, macOS, Linux)
 
 ## Prerequisites
 
-- Node.js (v14 or higher)
+Before you begin, ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v14 or higher)
 - npm (comes with Node.js)
 
 ## Installation
 
-1. Clone this repository or download the source code
-2. Navigate to the project directory
-3. Install dependencies:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/8bitbyadog/sound-converter.git
+   cd sound-converter
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
@@ -56,6 +61,14 @@ The application will display error messages if:
 - The output directory is not accessible
 - Conversion fails for any reason
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
 ## License
 
-ISC 
+ISC
+
+## Author
+
+- GitHub: [@8bitbyadog](https://github.com/8bitbyadog) 
